@@ -1,0 +1,10 @@
+<div class="card">
+  <h5 class="card-header">{{ title() }}</h5>
+  <div class="card-body">
+    <p class="card-text">{{ description() }}</p>
+    <a class="btn btn-outline-danger" (click)="onSubmit()">Usuń</a>
+    <a class="btn btn-outline-dark" (click)="onCancel()">Zrezygnuj</a>
+    @if (thirdBtn()) {
+    <a class="btn btn-outline-info" (click)="onContinue()">Edytuj</a>}
+  </div>
+</div>

@@ -1,0 +1,23 @@
+svg {
+  width: 1.5rem;
+  height: 1.5rem;
+  cursor: pointer;
+}
+input[type='checkbox'] {
+  display: none;
+  transition: all 0.5 ease;
+}
+label {
+  position: relative;
+  transition: all 0.5 ease;
+}
+button {
+  z-index: 1000;
+}
+
+.menu-icon:has(input:checked) label {
+  transform: rotateZ(90deg);
+}
+.btn-hidden {
+  z-index: -1000;
+}

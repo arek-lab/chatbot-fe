@@ -1,1 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+  --background-1: #212529;
+  --background-2: #282c31;
+}
+
+body {
+  min-height: 100vh;
+  position: relative;
+}
+pre,
+code {
+  font-family: inherit;
+  font-size: inherit;
+  background: inherit;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+.user {
+  background: red;
+}
+.truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

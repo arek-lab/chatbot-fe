@@ -1,0 +1,75 @@
+.container {
+  height: 100vh;
+}
+div:first-child {
+  padding: 0.7rem;
+}
+svg {
+  cursor: pointer;
+  width: 2rem;
+  height: 2rem;
+  opacity: 0.8;
+}
+.sessions {
+  padding: 0.3rem;
+  overflow-y: auto;
+  height: 65%;
+}
+.list-group,
+.list-group-item {
+  background-color: inherit;
+  color: inherit;
+  font-size: small;
+}
+.list-group-item {
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  border-radius: 5px;
+}
+.dropdown {
+  margin: 0;
+  padding: 0;
+}
+button,
+button:focus,
+.btn:active {
+  background-color: inherit;
+  border: none;
+  padding: 0.1rem 0.4rem;
+  text-align: left;
+  font-size: small;
+}
+button:first-child {
+  width: 14rem;
+}
+.list-group-item:hover,
+button:hover {
+  background-color: var(--background-1);
+}
+.dropdown-menu {
+  background-color: var(--background-1);
+  color: #fff;
+  border: 1px solid #ffffff31;
+}
+.dropdown-item {
+  color: #fff;
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+  background-color: var(--background-2);
+  color: #fff;
+}
+.trash,
+.trash:hover {
+  color: #ff9898;
+}
+.dropdown-item svg {
+  width: 1rem;
+  height: 1rem;
+}
+.active {
+  background-color: var(--background-1);
+}
+

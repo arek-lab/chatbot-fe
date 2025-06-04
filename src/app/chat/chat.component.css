@@ -1,0 +1,77 @@
+.mw-90 {
+  max-width: 90%;
+}
+:host {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 2rem;
+}
+.chat-wrapper {
+  width: 100%;
+  overflow: auto;
+  position: relative;
+}
+.user {
+  background-color: var(--background-2) !important;
+  position: relative;
+}
+.loader {
+  margin-top: 0.5rem;
+}
+form {
+  position: relative;
+  padding: 0;
+}
+button {
+  position: absolute;
+  bottom: 20px;
+  right: 25px;
+  border: none;
+}
+svg {
+  width: 1.3rem;
+  height: 1.3rem;
+}
+
+textarea {
+  padding-right: 2rem;
+  resize: none;
+  overflow: hidden;
+}
+textarea::-webkit-input-placeholder {
+  color: #ffffff7a;
+}
+
+textarea:-moz-placeholder {
+  color: #ffffff7a;
+}
+.trash,
+.trash:hover {
+  color: #ff9898;
+  cursor: pointer;
+  margin-right: 0.5rem;
+}
+.edit {
+  opacity: 0.5;
+  text-decoration: line-through;
+}
+@media (max-width: 400px) {
+  * {
+    font-size: small;
+  }
+  input,
+  button {
+    font-size: inherit;
+  }
+  form,
+  :host {
+    padding: 0;
+  }
+}
+@media (max-width: 300px) {
+  * {
+    font-size: smaller;
+  }
+}

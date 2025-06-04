@@ -1,0 +1,20 @@
+* {
+  background: inherit;
+}
+:host {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+input:focus {
+  background: inherit;
+  color: inherit;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:focus {
+  transition: background-color 600000s 0s, color 600000s 0s;
+}
+.form-text {
+  color: #ffffffb9;
+}
